@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="si">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>අපේ සේවාවන් | BizMaxSolutions</title>
+    <meta name="description" content="BizMax Solutions හරහා අපි කරන්නේ නිකම්ම පින්තූර අන්තර්ජාලයට මුදා හැරීම නොව, ඔබේ ව්‍යාපාරයට සැබෑ ගනුදෙනුකරුවන් ගෙන එන ඩිජිටල් පාලමක් නිර්මාණය කිරීමයි.">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/fav.png">
+    <link rel="apple-touch-icon" href="images/fav.png">
+    <link rel="shortcut icon" href="images/fav.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* සිංහල අකුරු සඳහා විශේෂිත ස්ටයිල් */
+        body, h1, h2, h3, h4, h5, h6, p, a, li, span {
+            font-family: 'Poppins', 'Noto Sans Sinhala', sans-serif;
+        }
+        .sinhala-text {
+            line-height: 1.8;
+        }
+    </style>
+</head>
+
+<body data-theme="light">
+
+    <div id="preloader">
+        <img src="images/logo.png" alt="BizMax" class="loader-logo">
+        <div class="loader-bar">
+            <div class="loader-progress"></div>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <button class="back-btn" onclick="goBack()" title="Go Back">
+            <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="BizMax" class="logo-img">
+            <div class="logo-text">BizMax<span>Solutions.</span></div>
+        </a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="nav-actions" style="display: flex; align-items: center;">
+            <i class="fa-solid fa-ellipsis-vertical menu-btn" onclick="toggleMenu()" style="margin-left: 1rem;"></i>
+        </div>
+    </nav>
+
+    <header class="hero-section" style="height: 60vh;">
+        <div class="hero-bg" style="background-image: url('images/pricing-hero-bg.webp'); opacity: 0.2;">
+        </div>
+        <div class="hero-content">
+            <div style="margin-bottom: 2rem;">
+                <a href="services.html" class="btn-primary" style="padding: 0.6rem 1.5rem; font-size: 0.95rem; display: inline-flex; align-items: center; gap: 8px;">
+                    <i class="fa-solid fa-globe"></i>Read in English
+                </a>
+            </div>
+            <h1 class="hero-title" style="font-size: 2.8rem;">Likes වෙනුවට ලාභයක්.<br><span style="color:var(--accent)">පෝස්ට් වෙනුවට ප්‍රතිඵලයක්.</span></h1>
+            <p class="hero-desc sinhala-text" style="max-width: 700px; margin: 0 auto 2rem auto;">ඔබේ ව්‍යාපාරය වෙනුවෙන් ෆේස්බුක් පිටුවක් තිබුණත්, එයින් බලාපොරොත්තු වන ආදායම ලැබෙන්නේ නැද්ද? තරඟකරුවන් ඔබව පහුකරගෙන යනවා කියා හිතෙනවාද?</p>
+            <a href="#growth-engine" class="btn-primary">අපේ සැලැස්ම බලන්න</a>
+        </div>
+    </header>
+
+    <section class="section text-center reveal">
+        <div class="container" style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <p class="sinhala-text" style="font-size: 1.2rem; color: var(--text-gray);">
+                <strong>BizMax Solutions</strong> හරහා අපි කරන්නේ නිකම්ම පින්තූර අන්තර්ජාලයට මුදා හැරීම නොව, ඔබේ ව්‍යාපාරයට සැබෑ ගනුදෙනුකරුවන් ගෙන එන ඩිජිටල් පාලමක් නිර්මාණය කිරීමයි. <br><br>
+                <span style="color: var(--primary); font-weight: 600; font-size: 1.3rem;">ඔබේ කාලය ව්‍යාපාරය දියුණු කිරීමට යොදවන්න, ඩිජිටල් වගකීම අපිට භාර දෙන්න.</span>
+            </p>
+        </div>
+    </section>
+
+    <section id="growth-engine" class="section bg-light reveal">
+        <div class="section-title">
+            <h2 class="sinhala-text">අපේ ත්‍රිමාණ වර්ධන සැලැස්ම</h2>
+            <div class="line"></div>
+            <p>(Our 3-Step Growth Engine)</p>
+        </div>
+
+        <div class="grid-3">
+            <div class="project-card" style="padding: 2rem; text-align: left;">
+                <div class="step-icon" style="margin: 0 0 1.5rem 0;"><i class="fa-solid fa-gem"></i></div>
+                <h3 style="color:var(--primary); margin-bottom: 0.5rem;" class="sinhala-text">1. ඩිජිටල් පදනම සවිමත් කිරීම</h3>
+                <h4 style="color:var(--accent); font-size: 0.9rem; margin-bottom: 1rem;">(Brand Foundation & Authority)</h4>
+                <p style="color:#64748b; margin-bottom: 1rem;" class="sinhala-text">පාරිභෝගිකයෙක් මුලින්ම ඔබව දකින්නේ අන්තර්ජාලයෙනි. එම පළමු බැල්මෙන්ම විශ්වාසය දිනාගැනීම අපගේ අරමුණයි.</p>
+                <ul style="list-style: none; color: #475569; font-size: 0.95rem;" class="sinhala-text">
+                    <li style="margin-bottom: 10px;"><i class="fa-solid fa-check" style="color:var(--accent); margin-right:8px;"></i> <strong>Premium Page Setup:</strong> ඔබේ ව්‍යාපාරයට ආවේණික වර්ණ සහ වෘත්තීය මට්ටමේ පෙනුමක් ලබා දීම.</li>
+                    <li><i class="fa-solid fa-check" style="color:var(--accent); margin-right:8px;"></i> <strong>Search Optimization (SEO):</strong> ෆේස්බුක් හි ඔබේ සේවාව සෙවූ විට, තරඟකරුවන්ට පෙර ඔබව ඉස්මතු කර පෙන්වීම.</li>
+                </ul>
+            </div>
+
+            <div class="project-card" style="padding: 2rem; text-align: left; border-bottom: 4px solid var(--accent);">
+                <div class="step-icon" style="margin: 0 0 1.5rem 0;"><i class="fa-solid fa-magnet"></i></div>
+                <h3 style="color:var(--primary); margin-bottom: 0.5rem;" class="sinhala-text">2. පාරිභෝගිකයා ආකර්ෂණය කරගැනීම</h3>
+                <h4 style="color:var(--accent); font-size: 0.9rem; margin-bottom: 1rem;">(High-Converting Content)</h4>
+                <p style="color:#64748b; margin-bottom: 1rem;" class="sinhala-text">නිකම්ම පෝස්ටර් වෙනුවට, මිනිසුන්ගේ අවධානය දිනාගන්නා සහ ඔවුන්ව මිලදී ගැනීමට පොළඹවන නිර්මාණ අපි සිදු කරන්නෙමු.</p>
+                <ul style="list-style: none; color: #475569; font-size: 0.95rem;" class="sinhala-text">
+                    <li style="margin-bottom: 10px;"><i class="fa-solid fa-check" style="color:var(--accent); margin-right:8px;"></i> <strong>Psychological Copywriting:</strong> විසඳුම ඔබේ ව්‍යාපාරය බව ඒත්තු ගන්වන ආකර්ෂණීය වැකි නිර්මාණය.</li>
+                    <li><i class="fa-solid fa-check" style="color:var(--accent); margin-right:8px;"></i> <strong>Engaging Visuals & Reels:</strong> සිසුන්ගේ අවධානය දිනාගන්නා සහ ආහාර රුචිය වඩවන උසස් තත්ත්වයේ නිර්මාණ සහ කෙටි වීඩියෝ.</li>
+                </ul>
+            </div>
+
+            <div class="project-card" style="padding: 2rem; text-align: left;">
+                <div class="step-icon" style="margin: 0 0 1.5rem 0;"><i class="fa-solid fa-bullseye"></i></div>
+                <h3 style="color:var(--primary); margin-bottom: 0.5rem;" class="sinhala-text">3. ඉලක්කගත විකුණුම් මෙහෙයුම</h3>
+                <h4 style="color:var(--accent); font-size: 0.9rem; margin-bottom: 1rem;">(Precision Target Marketing)</h4>
+                <p style="color:#64748b; margin-bottom: 1rem;" class="sinhala-text">ඔබ වැය කරන සෑම රුපියලකටම (ROI) උපරිම වටිනාකමක් ලබා දීම මෙහිදී සිදුවේ.</p>
+                <ul style="list-style: none; color: #475569; font-size: 0.95rem;" class="sinhala-text">
+                    <li style="margin-bottom: 10px;"><i class="fa-solid fa-check" style="color:var(--accent); margin-right:8px;"></i> <strong>Laser-Targeted Ads:</strong> ඔබෙන් සේවාව ලබාගැනීමට කැමතිම ප්‍රදේශයේ, නියමිත වයස් කාණ්ඩයේ පිරිසට පමණක් දැන්වීම් පෙන්වීම.</li>
+                    <li><i class="fa-solid fa-check" style="color:var(--accent); margin-right:8px;"></i> <strong>Lead Generation:</strong> අලුත් පාරිභෝගිකයින්ගේ දුරකථන අංක සහ විස්තර කෙළින්ම ඔබේ අතට ලබා දීම.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section reveal">
+        <div class="section-title">
+            <h2 class="sinhala-text">ඔබේ ව්‍යාපාරයට ගැළපෙන BizMax ආයෝජන සැලසුම්</h2>
+            <div class="line"></div>
+            <p class="sinhala-text">අපි පාරිභෝගිකයන්ට පිරිනමන්නේ වියදම් නොව, වර්ධනය සඳහා වූ ආයෝජනයන්ය.</p>
+        </div>
+
+        <div class="pricing-grid">
+            <div class="price-card">
+                <h3>🚀 IGNITE</h3>
+                <h4 style="color:var(--accent); font-size: 0.9rem; margin-bottom: 1rem;" class="sinhala-text">(ආරම්භක පියවර)</h4>
+                <div class="amount">15,000<span> LKR</span></div>
+                <p style="color:#64748b; font-size:0.85rem; margin-bottom:1.5rem;" class="sinhala-text">නව ව්‍යාපාර සඳහා</p>
+                <ul class="features-list">
+                    <li><i class="fa-solid fa-check"></i> මසකට 8 යි (High-End Posts)</li>
+                    <li><i class="fa-solid fa-check"></i> 1 Viral Reel (Concept & Edit)</li>
+                    <li><i class="fa-solid fa-check"></i> Basic Targeting</li>
+                    <li style="color: #94a3b8;"><i class="fa-solid fa-xmark"></i> Growth Report නැත</li>
+                </ul>
+            </div>
+
+            <div class="price-card featured">
+                <div class="badge">SME Special</div>
+                <h3>⚡ ACCELERATE</h3>
+                <h4 style="color:var(--accent); font-size: 0.9rem; margin-bottom: 1rem;" class="sinhala-text">(වේගවත් වර්ධනය)</h4>
+                <div class="amount" style="color:var(--accent);">30,000<span> LKR</span></div>
+                <p style="color:#cbd5e1; font-size:0.85rem; margin-bottom:1.5rem;" class="sinhala-text">සුළු හා මධ්‍ය පරිමාණ (SME)</p>
+                <ul class="features-list">
+                    <li style="color:white;"><i class="fa-solid fa-check"></i> මසකට 12 යි (High-End Posts)</li>
+                    <li style="color:white;"><i class="fa-solid fa-check"></i> 3 Viral Reels (Concept & Edit)</li>
+                    <li style="color:white;"><i class="fa-solid fa-check"></i> Advanced Custom Audiences</li>
+                    <li style="color:white;"><i class="fa-solid fa-check"></i> මාසික ප්‍රතිඵල වාර්තාව</li>
+                </ul>
+            </div>
+
+            <div class="price-card">
+                <h3>👑 DOMINATE</h3>
+                <h4 style="color:var(--accent); font-size: 0.9rem; margin-bottom: 1rem;" class="sinhala-text">(වෙළඳපොළ ජයගැනීම)</h4>
+                <div class="amount">55,000<span> LKR</span></div>
+                <p style="color:#64748b; font-size:0.85rem; margin-bottom:1.5rem;" class="sinhala-text">ප්‍රමුඛ පෙළේ ආයතන සඳහා</p>
+                <ul class="features-list">
+                    <li><i class="fa-solid fa-check"></i> මසකට 20 යි (High-End Posts)</li>
+                    <li><i class="fa-solid fa-check"></i> 6 Viral Reels (Concept & Edit)</li>
+                    <li><i class="fa-solid fa-check"></i> Full Funnel Retargeting</li>
+                    <li><i class="fa-solid fa-check"></i> සතිපතා විශ්ලේෂණ වාර්තාව</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 2rem;" class="sinhala-text">
+            <p style="font-size: 0.9rem; color: #64748b;"><em>* විශේෂ සටහන: අපි එකවර වැඩ කරන්නේ සීමිත ව්‍යාපාර ප්‍රමාණයක් සමඟ පමණි. එමඟින් සෑම ව්‍යාපාරයක් සඳහාම අපගේ 100% ක අවධානය ලබා දීමට අපට හැකියාව ලැබේ.</em></p>
+        </div>
+    </section>
+
+    <section class="section bg-light reveal">
+        <div class="section-title">
+            <h2 class="sinhala-text">ඇයි ඔබ අපව තෝරාගත යුත්තේ?</h2>
+            <div class="line"></div>
+        </div>
+        <div class="timeline">
+            <div class="step">
+                <div class="step-icon"><i class="fa-solid fa-handshake"></i></div>
+                <h4 style="color:var(--primary);" class="sinhala-text">ව්‍යාපාර හවුල්කරුවන්</h4>
+                <p style="font-size:0.95rem; color:#64748b;" class="sinhala-text">අපි පෝස්ට් හදන්නන් නොව, ව්‍යාපාර හවුල්කරුවන් වෙමු: ඔබේ දියුණුව අපේ දියුණුවයි.</p>
+            </div>
+            <div class="step">
+                <div class="step-icon"><i class="fa-solid fa-robot"></i></div>
+                <h4 style="color:var(--primary);" class="sinhala-text">නවීන තාක්ෂණය (AI)</h4>
+                <p style="font-size:0.95rem; color:#64748b;" class="sinhala-text">අපි AI තාක්ෂණය භාවිතා කරමින් ඉතා ඉක්මනින් සහ උසස් තත්ත්වයෙන් නිර්මාණ ලබා දෙන්නෙමු.</p>
+            </div>
+            <div class="step">
+                <div class="step-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <h4 style="color:var(--primary);" class="sinhala-text">විනිවිදභාවය</h4>
+                <p style="font-size:0.95rem; color:#64748b;" class="sinhala-text">ඔබ ගෙවන සෑම ශතයකටම ලැබුණු ප්‍රතිඵලය අපි දත්ත (Data) හරහා පෙන්වන්නෙමු.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section text-center reveal" style="background: var(--primary); color: white;">
+        <h2 class="sinhala-text" style="color: white; font-size: 2.2rem; margin-bottom: 1rem;">ඊළඟ පියවර තබමුද? (Let's Grow Together!)</h2>
+        <p class="sinhala-text" style="max-width: 700px; margin: 0 auto 2rem auto; color: #cbd5e1; font-size: 1.1rem;">
+            ඔබේ ව්‍යාපාරය මීළඟ මට්ටමට ගෙන යාමට අවශ්‍ය සැලැස්ම දැන් ඔබ සතුව ඇත. සාර්ථකත්වය යනු නිවැරදි තීරණ නිවැරදි වෙලාවට ගැනීමයි.<br><br>
+            අපි කෝපි කෝප්පයක් බොන ගමන්, හෝ දුරකථනයෙන් විනාඩි 10ක් මේ ගැන තවදුරටත් කතා කරමු. ඔබේ ව්‍යාපාරයට ගැළපෙනම විසඳුම අපි නොමිලේම සාකච්ඡා කරමු.
+        </p>
+        <a href="https://wa.me/94711098429" target="_blank" class="btn-primary" style="font-size: 1.1rem; padding: 1rem 3rem;">
+            <i class="fa-brands fa-whatsapp" style="margin-right: 10px;"></i> දැන්ම කතා කරන්න
+        </a>
+    </section>
+
+    <!-- "See Price List" Button adding before footer just like in services.html -->
+    <div style="text-align: center; padding: 4rem 0 2rem 0; background: var(--bg-color);">
+        <a href="pricing.html" class="btn-primary"
+            style="font-size: 1.1rem; padding: 1rem 3rem; box-shadow: 0 10px 20px rgba(249, 115, 22, 0.3);">
+            See Price List <i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i>
+        </a>
+    </div>
+
+    <footer id="contact-footer">
+        <div class="footer-split-container">
+            <div class="footer-left-content">
+                <div class="footer-logo-text">BizMax<span>Solutions.</span></div>
+                <p class="footer-desc sinhala-text" style="color: #94a3b8;">අපගේ සේවාවේ ගුණාත්මකභාවය 100% ක් පවත්වා ගැනීම සඳහා, අප එක් මාසයකට භාරගන්නේ සීමිත ව්‍යාපාර ප්‍රමාණයක් පමණි. එබැවින්, ඔබේ ව්‍යාපාරය සඳහා අපගේ කාලය අදම වෙන්කරවා ගන්න.</p>
+                <div class="contact-list">
+                    <p><i class="fa-solid fa-phone"></i> 074 23 27 807 | 071 10 98 429</p>
+                    <p><i class="fa-solid fa-envelope"></i> hello@bizmaxsolutions.com</p>
+                    <p><i class="fa-solid fa-globe"></i> www.bizmaxsolutions.com</p>
+                </div>
+                <div class="social-icons-left">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://wa.me/94711098429"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-right-form" style="display: flex; flex-direction: column; justify-content: center; text-align: center;">
+                <h3 style="color: var(--primary); margin-bottom: 1rem;" class="sinhala-text">අප හා සම්බන්ධ වන්න</h3>
+                <p class="sinhala-text" style="color: var(--text-gray); margin-bottom: 2rem;">ඔබගේ කාර්යබහුලත්වය අපි තේරුම් ගෙන සිටින්නෙමු. ඔබට පහසු ඕනෑම වෙලාවක WhatsApp පණිවිඩයක් යොමු කරන්න, අපි ඔබව සම්බන්ධ කරගන්නෙමු.</p>
+                <a href="https://wa.me/94711098429" target="_blank" class="btn-primary" style="width: 100%;">WhatsApp පණිවිඩයක් යවන්න</a>
+            </div>
+        </div>
+        <div class="footer-bottom" style="text-align: center; margin-top: 2rem; font-size: 0.85rem;">
+            &copy; 2026 BizMaxSolutions. All Rights Reserved. <br>We Don't Just Post. We Maximize Your Business.
+        </div>
+    </footer>
+
+    <div id="next-page-funnel">
+        <div class="next-page-text">Next: Contact Us</div>
+        <a href="contact.html" class="next-page-btn">
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+    <a href="https://wa.me/94711098429" class="float-wa"><i class="fa-brands fa-whatsapp"></i></a>
+</body>
+
+</html>
